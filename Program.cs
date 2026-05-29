@@ -13,11 +13,13 @@ string continuar = "s";
 
 while(continuar == "s")
 {
+  Console.ForegroundColor = ConsoleColor.Green;
 Console.Write("Qual a Largura? ");
 int Largura = Convert.ToInt32(Console.ReadLine());
 
 Console.Write("Qual a Altura? ");
 int Altura = Convert.ToInt32(Console.ReadLine());
+Console.ResetColor();
 
 string preenchimento = "*";
 
